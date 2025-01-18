@@ -1,6 +1,6 @@
 {
     "name": "@sophat/sessions",
-    "version": "0.0.1-beta",
+    "version": "0.0.1",
     "description": "A TypeScript utility library for managing browser session storage with a simple API. Provides methods to set, get, update, remove, and clear session storage items, plus key enumeration. Ideal for client-side state management and data persistence in web applications.",
     "main": "dist/index.js",
     "type": "module",
@@ -10,18 +10,18 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/pphatdev/cookies.git"
+        "url": "git+https://github.com/pphatdev/sessions.git"
     },
     "author": "pphatdev <info.sophat@gmail.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/pphatdev/cookies/issues"
+        "url": "https://github.com/pphatdev/sessions/issues"
     },
     "publishConfig": {
         "registry": "https://npm.pkg.github.com",
         "access": "public"
     },
-    "homepage": "https://github.com/pphatdev/cookies#readme",
+    "homepage": "https://github.com/pphatdev/sessions#readme",
     "keywords": [
         "sessions",
         "session-storage",
