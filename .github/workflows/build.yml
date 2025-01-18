@@ -3,8 +3,8 @@ name: 📍
 on:
   push:
     branches: [master]
-  release:
-    types: [created]
+  # release:
+  #   types: [created]
 
 jobs:
   publish:
