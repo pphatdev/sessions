@@ -38,7 +38,7 @@ jobs:
 
       - name: Publish to GitHub Packages
         run: |
-          npm pkg set name="@pphatdev/cookies"
+          npm pkg set name="@sophat/sessions"
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
