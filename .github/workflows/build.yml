@@ -53,7 +53,7 @@ jobs:
 
       - name: Publish to NPM
         run: |
-          npm pkg set name="@sophat/cookies"
+          npm pkg set name="@sophat/sessions"
           echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
           npm publish
         env:
